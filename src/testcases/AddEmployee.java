@@ -9,7 +9,7 @@ public class AddEmployee {
 
 public class AddEmployeeTest extends testbase {
 
-	@Test
+	@Test(description="Add Employee test")
 	public void AddNoDiscount(){
 		LoginPage loginPage = new LoginPage(driver);
 		DashboardPage dashboardPage = loginPage.login("testUser","Test1234");
@@ -17,6 +17,5 @@ public class AddEmployeeTest extends testbase {
 		Assert.assertTrue(dashboardPage.CheckFieldValues(), "Error found in dashboard data after adding employee without discount");
 	}
 			
-
 }
 }
