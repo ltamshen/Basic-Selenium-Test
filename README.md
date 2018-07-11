@@ -1,4 +1,4 @@
-# Paylocity
+
 After downloading, unzip the project.
 Launch Eclipse. File>Import > Select “Projects from Folder or Archive”.
 You will need to add the testng.jar and jcommander.jar files in addition to the Selenium (2) files to the Build Path (libriaries tab) in Eclipse.
